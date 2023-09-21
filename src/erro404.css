@@ -1,0 +1,54 @@
+/* Reset default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    
+  }
+  /* Container */
+  .error-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('./img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Content */
+  .error-content {
+    text-align: center;
+  }
+  
+  .error-content h1 {
+    font-size: 6rem;
+    color: #fff;
+  }
+  
+  .error-content p {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  .moon {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.8;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -30%);
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.8); /* Adding white shadow */
+    animation: shine 4s infinite;
+  }
+  .flex{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .flex>h1{
+    font-size: 14rem;
+    position: relative;
+    top: -6rem;
+  }
