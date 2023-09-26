@@ -22,10 +22,10 @@ function Navbar() {
           <Link to='/'>Home</Link>
         </li>
         <li onClick={ toggleMenu}>
-          <Link to='/About'>About</Link>
+          <Link to='/MakeCard'>Make Card</Link>
         </li>
         <li onClick={ toggleMenu}>
-          <Link to='/Info'>Info</Link>
+          <Link to='/About'>About</Link>
         </li>
         <li onClick={ toggleMenu}>
           <Link to='/Contact'>Contact</Link>

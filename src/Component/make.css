@@ -1,0 +1,73 @@
+.card-2 {
+    width: 26rem;
+    height: 16rem;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+    background: url('./cardbg.jpg') no-repeat;
+    background-size: cover;
+  } 
+  .make-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  @media screen and (max-width:468px) {
+    #h1{
+      font-size: 1.5rem;
+    }
+    .card-2{
+      width: 16rem;
+      height: 10rem;
+    }
+     .make-card{
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+     }
+     .holder>span{
+      font-size: 1rem;
+     }
+  }
+  #h1{
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 5px 15px rgba(0, 0, 0, 0.4);
+    font-weight: 600;
+    font-family: cursive;
+    padding:0px 0px 50px 0px;
+  }
+  .form{
+    display:flex ;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  input,select{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    width: 12rem;
+  }
+.generate{
+  text-align: center;
+  padding-top: 60px;
+}
+.generate>button{
+  padding: 10px;
+  border: 1px solid #fff;
+  background: transparent;
+  border-radius: 18px;
+  color: #fff;
+
+}

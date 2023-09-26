@@ -4,6 +4,11 @@ body{
   background-size: cover;
   height: 100vh;
 }
+@media screen and (max-width:480px) {
+   body{
+    height: 165vh;
+   }
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -54,9 +59,10 @@ body{
     flex-direction: column;
     cursor: pointer;
   }
-
+  
   @media screen and (max-width: 768px) {
     .nav-links {
+      z-index: 100;
       display: none;
       flex-direction: column;
       align-items: center;
